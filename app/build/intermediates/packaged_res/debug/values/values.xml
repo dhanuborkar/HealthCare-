@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Aqua">#8CF4DC</color>
+    <color name="black">#FF000000</color>
+    <color name="green">#72EA31</color>
+    <color name="pink">#F40795</color>
+    <color name="purple">#DA21C7</color>
+    <color name="red">#FDFA2040</color>
+    <color name="skyblue">#46EBFA</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#F7FBF708</color>
+    <string name="app_name">HealthCare</string>
+    <style name="Base.Theme.HealthCare" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.HealthCare" parent="Base.Theme.HealthCare"/>
+</resources>

@@ -1,0 +1,184 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.healthcare"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->D:\HealthCare\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\HealthCare\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.healthcare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.healthcare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->D:\HealthCare\app\src\main\AndroidManifest.xml:5:5-72:19
+18        android:allowBackup="true"
+18-->D:\HealthCare\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->D:\HealthCare\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->D:\HealthCare\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\HealthCare\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->D:\HealthCare\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\HealthCare\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->D:\HealthCare\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.HealthCare" >
+29-->D:\HealthCare\app\src\main\AndroidManifest.xml:13:9-48
+30        <activity
+30-->D:\HealthCare\app\src\main\AndroidManifest.xml:15:9-17:40
+31            android:name="com.example.healthcare.HealthArticleDetailsActivity"
+31-->D:\HealthCare\app\src\main\AndroidManifest.xml:16:13-57
+32            android:exported="false" />
+32-->D:\HealthCare\app\src\main\AndroidManifest.xml:17:13-37
+33        <activity
+33-->D:\HealthCare\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.healthcare.HealthArticlesActivity"
+34-->D:\HealthCare\app\src\main\AndroidManifest.xml:19:13-51
+35            android:exported="false" />
+35-->D:\HealthCare\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->D:\HealthCare\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.healthcare.BuyMedicineBookActivity"
+37-->D:\HealthCare\app\src\main\AndroidManifest.xml:22:13-52
+38            android:exported="false" />
+38-->D:\HealthCare\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->D:\HealthCare\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.healthcare.CartBuyMedicineActivity"
+40-->D:\HealthCare\app\src\main\AndroidManifest.xml:25:13-52
+41            android:exported="false" />
+41-->D:\HealthCare\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->D:\HealthCare\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="com.example.healthcare.BuyMedicineDetailsActivity"
+43-->D:\HealthCare\app\src\main\AndroidManifest.xml:28:13-55
+44            android:exported="false" />
+44-->D:\HealthCare\app\src\main\AndroidManifest.xml:29:13-37
+45        <activity
+45-->D:\HealthCare\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="com.example.healthcare.BuyMedicineActivity"
+46-->D:\HealthCare\app\src\main\AndroidManifest.xml:31:13-48
+47            android:exported="false" />
+47-->D:\HealthCare\app\src\main\AndroidManifest.xml:32:13-37
+48        <activity
+48-->D:\HealthCare\app\src\main\AndroidManifest.xml:33:9-35:40
+49            android:name="com.example.healthcare.OrderDetailsActivity"
+49-->D:\HealthCare\app\src\main\AndroidManifest.xml:34:13-49
+50            android:exported="false" />
+50-->D:\HealthCare\app\src\main\AndroidManifest.xml:35:13-37
+51        <activity
+51-->D:\HealthCare\app\src\main\AndroidManifest.xml:36:9-38:40
+52            android:name="com.example.healthcare.LabTestBookActivity"
+52-->D:\HealthCare\app\src\main\AndroidManifest.xml:37:13-48
+53            android:exported="false" />
+53-->D:\HealthCare\app\src\main\AndroidManifest.xml:38:13-37
+54        <activity
+54-->D:\HealthCare\app\src\main\AndroidManifest.xml:39:9-41:40
+55            android:name="com.example.healthcare.CartLabActivity"
+55-->D:\HealthCare\app\src\main\AndroidManifest.xml:40:13-44
+56            android:exported="false" />
+56-->D:\HealthCare\app\src\main\AndroidManifest.xml:41:13-37
+57        <activity
+57-->D:\HealthCare\app\src\main\AndroidManifest.xml:42:9-44:40
+58            android:name="com.example.healthcare.LabTestDetailsActivity"
+58-->D:\HealthCare\app\src\main\AndroidManifest.xml:43:13-51
+59            android:exported="false" />
+59-->D:\HealthCare\app\src\main\AndroidManifest.xml:44:13-37
+60        <activity
+60-->D:\HealthCare\app\src\main\AndroidManifest.xml:45:9-47:40
+61            android:name="com.example.healthcare.LabTestActivity"
+61-->D:\HealthCare\app\src\main\AndroidManifest.xml:46:13-44
+62            android:exported="false" />
+62-->D:\HealthCare\app\src\main\AndroidManifest.xml:47:13-37
+63        <activity
+63-->D:\HealthCare\app\src\main\AndroidManifest.xml:48:9-50:40
+64            android:name="com.example.healthcare.BookAppointmentActivity"
+64-->D:\HealthCare\app\src\main\AndroidManifest.xml:49:13-52
+65            android:exported="false" />
+65-->D:\HealthCare\app\src\main\AndroidManifest.xml:50:13-37
+66        <activity
+66-->D:\HealthCare\app\src\main\AndroidManifest.xml:51:9-53:40
+67            android:name="com.example.healthcare.DoctorDetailsActivity"
+67-->D:\HealthCare\app\src\main\AndroidManifest.xml:52:13-50
+68            android:exported="false" />
+68-->D:\HealthCare\app\src\main\AndroidManifest.xml:53:13-37
+69        <activity
+69-->D:\HealthCare\app\src\main\AndroidManifest.xml:54:9-56:40
+70            android:name="com.example.healthcare.FindDoctorActivity"
+70-->D:\HealthCare\app\src\main\AndroidManifest.xml:55:13-47
+71            android:exported="false" />
+71-->D:\HealthCare\app\src\main\AndroidManifest.xml:56:13-37
+72        <activity
+72-->D:\HealthCare\app\src\main\AndroidManifest.xml:57:9-59:40
+73            android:name="com.example.healthcare.HomeActivity"
+73-->D:\HealthCare\app\src\main\AndroidManifest.xml:58:13-41
+74            android:exported="false" />
+74-->D:\HealthCare\app\src\main\AndroidManifest.xml:59:13-37
+75        <activity
+75-->D:\HealthCare\app\src\main\AndroidManifest.xml:60:9-62:40
+76            android:name="com.example.healthcare.RegisterationActivity"
+76-->D:\HealthCare\app\src\main\AndroidManifest.xml:61:13-50
+77            android:exported="false" />
+77-->D:\HealthCare\app\src\main\AndroidManifest.xml:62:13-37
+78        <activity
+78-->D:\HealthCare\app\src\main\AndroidManifest.xml:63:9-71:20
+79            android:name="com.example.healthcare.LoginActivity"
+79-->D:\HealthCare\app\src\main\AndroidManifest.xml:64:13-42
+80            android:exported="true" >
+80-->D:\HealthCare\app\src\main\AndroidManifest.xml:65:13-36
+81            <intent-filter>
+81-->D:\HealthCare\app\src\main\AndroidManifest.xml:66:13-70:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->D:\HealthCare\app\src\main\AndroidManifest.xml:67:17-69
+82-->D:\HealthCare\app\src\main\AndroidManifest.xml:67:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->D:\HealthCare\app\src\main\AndroidManifest.xml:69:17-77
+84-->D:\HealthCare\app\src\main\AndroidManifest.xml:69:27-74
+85            </intent-filter>
+86        </activity>
+87
+88        <provider
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+90            android:authorities="com.example.healthcare.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Dhanashree Borkar\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+98        </provider>
+99    </application>
+100
+101</manifest>
